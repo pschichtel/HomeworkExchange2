@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Java",
+        "extentions": ["java", "jsp"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "PHP",
+        "extentions": ["php", "php3", "php4", "phtml"],
+        "slComment": ["//", "#"],
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "JavaScript",
+        "extentions": ["js"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "JSON",
+        "extentions": ["json"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "Visual Basic Script",
+        "extentions": ["vbs"],
+        "slComment": "'",
+        "mlComment": null
+    },
+    {
+        "name": "C",
+        "extentions": ["c", "h"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "C++",
+        "extentions": ["cpp", "hpp"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "HTML",
+        "extentions": ["htm", "html", "xhtml"],
+        "slComment": null,
+        "mlComment": ["<!--", "-->"]
+    },
+    {
+        "name": "Visual Basic",
+        "extentions": ["vb"],
+        "slComment": "'",
+        "mlComment": null
+    },
+    {
+        "name": "C#",
+        "extentions": ["cs"],
+        "slComment": "//",
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "CSS",
+        "extentions": ["css"],
+        "slComment": null,
+        "mlComment": ["/*", "*/"]
+    },
+    {
+        "name": "AutoIt",
+        "extentions": ["au"],
+        "slComment": ";",
+        "mlComment": null
+    },
+    {
+        "name": "Apache Configuration",
+        "extentions": ["conf", "htaccess"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "INI Configuration",
+        "extentions": ["ini"],
+        "slComment": ",",
+        "mlComment": null
+    },
+    {
+        "name": "Config",
+        "extentions": ["cfg"],
+        "slComment": "//",
+        "mlComment": null
+    },
+    {
+        "name": "log",
+        "extentions": ["log"],
+        "slComment": null,
+        "mlComment": null
+    },
+    {
+        "name": "CSV",
+        "extentions": ["csv"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Yaml",
+        "extentions": ["yaml", "yml"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Plaintext",
+        "extentions": ["txt", "text"],
+        "slComment": null,
+        "mlComment": null
+    },
+    {
+        "name": "Markdown",
+        "extentions": ["md", "mkd", "markdown"],
+        "slComment": null,
+        "mlComment": null
+    },
+    {
+        "name": "XML",
+        "extentions": ["xml"],
+        "slComment": null,
+        "mlComment": ["<!--", "-->"]
+    },
+    {
+        "name": "XSLT",
+        "extentions": ["xslt"],
+        "slComment": null,
+        "mlComment": ["<!--", "-->"]
+    },
+    {
+        "name": "Bash",
+        "extentions": ["sh"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Batch",
+        "extentions": ["bat", "cmd"],
+        "slComment": ["rem ", "::"],
+        "mlComment": null
+    },
+    {
+        "name": "LUA",
+        "extentions": ["lua"],
+        "slComment": null,
+        "mlComment": null
+    },
+    {
+        "name": "Python",
+        "extentions": ["py"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Ruby",
+        "extentions": ["rb"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Perl",
+        "extentions": ["pl"],
+        "slComment": "#",
+        "mlComment": null
+    },
+    {
+        "name": "Pascal",
+        "extentions": ["pas"],
+        "slComment": "//",
+        "mlComment": null
+    },
+    {
+        "name": "Coldfusion",
+        "extentions": ["cf"],
+        "slComment": null,
+        "mlComment": null
+    },
+    {
+        "name": "SQL",
+        "extentions": ["sql"],
+        "slComment": "-- ",
+        "mlComment": ["/*", "*/"]
+    }
+]

@@ -1,0 +1,1247 @@
+was here
+array(6) {
+  ["languageMap"]=>
+  array(3) {
+    ["php"]=>
+    array(27) {
+      [0]=>
+      array(6) {
+        ["path"]=>
+        string(11) ".\index.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(14)
+        ["realLines"]=>
+        int(14)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [1]=>
+      array(6) {
+        ["path"]=>
+        string(12) ".\index_.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(92)
+        ["realLines"]=>
+        int(92)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [2]=>
+      array(6) {
+        ["path"]=>
+        string(11) ".\login.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(37)
+        ["realLines"]=>
+        int(37)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [3]=>
+      array(6) {
+        ["path"]=>
+        string(9) ".\md5.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(3)
+        ["realLines"]=>
+        int(3)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [4]=>
+      array(6) {
+        ["path"]=>
+        string(40) ".\public\themes\default\views\layout.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(12)
+        ["realLines"]=>
+        int(12)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [5]=>
+      array(6) {
+        ["path"]=>
+        string(51) ".\public\themes\default\views\pages\index\index.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(19)
+        ["realLines"]=>
+        int(19)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [6]=>
+      array(6) {
+        ["path"]=>
+        string(32) ".\system\components\Database.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(36)
+        ["realLines"]=>
+        int(36)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [7]=>
+      array(6) {
+        ["path"]=>
+        string(39) ".\system\components\FrontController.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(100)
+        ["realLines"]=>
+        int(100)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [8]=>
+      array(6) {
+        ["path"]=>
+        string(40) ".\system\components\TemplateProvider.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(78)
+        ["realLines"]=>
+        int(78)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [9]=>
+      array(6) {
+        ["path"]=>
+        string(24) ".\system\config\core.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(26)
+        ["realLines"]=>
+        int(26)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [10]=>
+      array(6) {
+        ["path"]=>
+        string(20) ".\system\lib\App.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(102)
+        ["realLines"]=>
+        int(102)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [11]=>
+      array(6) {
+        ["path"]=>
+        string(28) ".\system\lib\ClassLoader.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(56)
+        ["realLines"]=>
+        int(56)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [12]=>
+      array(6) {
+        ["path"]=>
+        string(26) ".\system\lib\Component.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(9)
+        ["realLines"]=>
+        int(9)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [13]=>
+      array(6) {
+        ["path"]=>
+        string(44) ".\system\lib\Controller\CommonController.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(25)
+        ["realLines"]=>
+        int(25)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [14]=>
+      array(6) {
+        ["path"]=>
+        string(38) ".\system\lib\Controller\Controller.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(6)
+        ["realLines"]=>
+        int(6)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [15]=>
+      array(6) {
+        ["path"]=>
+        string(29) ".\system\lib\EventManager.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(37)
+        ["realLines"]=>
+        int(37)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [16]=>
+      array(6) {
+        ["path"]=>
+        string(32) ".\system\lib\Request\Request.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(88)
+        ["realLines"]=>
+        int(88)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [17]=>
+      array(6) {
+        ["path"]=>
+        string(33) ".\system\lib\Request\Response.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(76)
+        ["realLines"]=>
+        int(76)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [18]=>
+      array(6) {
+        ["path"]=>
+        string(32) ".\system\lib\Request\Session.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(91)
+        ["realLines"]=>
+        int(91)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [19]=>
+      array(6) {
+        ["path"]=>
+        string(42) ".\system\lib\Util\Config\Configuration.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(47)
+        ["realLines"]=>
+        int(47)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [20]=>
+      array(6) {
+        ["path"]=>
+        string(45) ".\system\lib\Util\Config\PhpConfiguration.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(18)
+        ["realLines"]=>
+        int(18)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [21]=>
+      array(6) {
+        ["path"]=>
+        string(30) ".\system\lib\View\Template.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(51)
+        ["realLines"]=>
+        int(51)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [22]=>
+      array(6) {
+        ["path"]=>
+        string(26) ".\system\lib\View\View.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(9)
+        ["realLines"]=>
+        int(9)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [23]=>
+      array(6) {
+        ["path"]=>
+        string(40) ".\system\pages\index\IndexController.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(34)
+        ["realLines"]=>
+        int(34)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [24]=>
+      array(6) {
+        ["path"]=>
+        string(35) ".\system\pages\index\views\blub.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(1)
+        ["realLines"]=>
+        int(1)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [25]=>
+      array(6) {
+        ["path"]=>
+        string(36) ".\system\pages\index\views\index.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(19)
+        ["realLines"]=>
+        int(19)
+        ["ignoredLines"]=>
+        int(0)
+      }
+      [26]=>
+      array(6) {
+        ["path"]=>
+        string(33) ".\system\pages\UserController.php"
+        ["ext"]=>
+        string(3) "php"
+        ["type"]=>
+        object(stdClass)#2 (4) {
+          ["name"]=>
+          string(3) "PHP"
+          ["extentions"]=>
+          array(4) {
+            [0]=>
+            string(3) "php"
+            [1]=>
+            string(4) "php3"
+            [2]=>
+            string(4) "php4"
+            [3]=>
+            string(5) "phtml"
+          }
+          ["slComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "//"
+            [1]=>
+            string(1) "#"
+          }
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(24)
+        ["realLines"]=>
+        int(24)
+        ["ignoredLines"]=>
+        int(0)
+      }
+    }
+    ["css"]=>
+    array(1) {
+      [0]=>
+      array(6) {
+        ["path"]=>
+        string(22) ".\public\css\style.css"
+        ["ext"]=>
+        string(3) "css"
+        ["type"]=>
+        object(stdClass)#11 (4) {
+          ["name"]=>
+          string(3) "CSS"
+          ["extentions"]=>
+          array(1) {
+            [0]=>
+            string(3) "css"
+          }
+          ["slComment"]=>
+          NULL
+          ["mlComment"]=>
+          array(2) {
+            [0]=>
+            string(2) "/*"
+            [1]=>
+            string(2) "*/"
+          }
+        }
+        ["lines"]=>
+        int(36)
+        ["realLines"]=>
+        int(36)
+        ["ignoredLines"]=>
+        int(0)
+      }
+    }
+    ["htaccess"]=>
+    array(1) {
+      [0]=>
+      array(6) {
+        ["path"]=>
+        string(25) ".\system\config\.htaccess"
+        ["ext"]=>
+        string(8) "htaccess"
+        ["type"]=>
+        object(stdClass)#13 (4) {
+          ["name"]=>
+          string(20) "Apache Configuration"
+          ["extentions"]=>
+          array(2) {
+            [0]=>
+            string(4) "conf"
+            [1]=>
+            string(8) "htaccess"
+          }
+          ["slComment"]=>
+          string(1) "#"
+          ["mlComment"]=>
+          NULL
+        }
+        ["lines"]=>
+        int(3)
+        ["realLines"]=>
+        int(3)
+        ["ignoredLines"]=>
+        int(0)
+      }
+    }
+  }
+  ["lines"]=>
+  int(1149)
+  ["realLines"]=>
+  int(1149)
+  ["files"]=>
+  int(29)
+  ["languages"]=>
+  int(3)
+  ["ignoredLines"]=>
+  int(0)
+}

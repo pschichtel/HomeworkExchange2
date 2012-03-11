@@ -1,0 +1,36 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
+
+div#login {
+    position: absolute;
+    width: 320px;
+    right: 30px;
+    z-index: 100;
+}
+
+button#login {
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+}
+
+form span.field {
+    float: left;
+    width: 150px;
+}
+form input.field {
+    
+}

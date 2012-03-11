@@ -1,0 +1,8 @@
+nbproject
+blacklist.txt
+log.txt
+*.php~
+languages.json
+locc.phpcli
+public/css/hwe_theme
+jquery*.js
