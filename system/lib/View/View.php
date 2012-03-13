@@ -1,9 +1,16 @@
 <?php
+
     interface View
     {
-        public function render(array $params = null);
+
+        public function renderString();
+
+        public function render();
     }
-    
+
     class ViewException extends Exception
-    {}
+    {
+        
+    }
+
 ?>

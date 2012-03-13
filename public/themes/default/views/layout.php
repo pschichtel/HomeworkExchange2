@@ -9,6 +9,6 @@
         <script type="text/javascript" src="public/js/jquery/jquery-ui.js"></script>
     </head>
     <body class="ui-helper-reset">
-        
+        <?php echo $content ?>
     </body>
 </html>

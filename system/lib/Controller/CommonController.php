@@ -18,9 +18,8 @@
             $template = $this->templateProvider->getTemplate($this->name, $template);
             if ($template !== null)
             {
-                return $template->render($params);
+                $template->multiAssign($params)->render();
             }
-            return null;
         }
     }
 
