@@ -1,5 +1,5 @@
 <h1>
-    Hallo! Ich bin die Standardseite!
+    Hallo! Ich bin die Standardseite: <?php echo App::get()->getBaseUrl() ?>
 </h1>
 <?php if ($request->getArgc()): ?>
 <span>Das sind meine Parameter:</span><br>

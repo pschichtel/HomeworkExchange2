@@ -7,6 +7,8 @@
         private $eventmanager;
         private $componentBasePath;
         
+        private $baseUrl;
+        
         private function __construct(Configuration $configuration)
         {
             $this->configuration = $configuration;
@@ -16,6 +18,8 @@
             
             $this->components = array();
             $this->componentBasePath = SYS_PATH . DIRECTORY_SEPARATOR . $this->configuration['componentDir'] . DIRECTORY_SEPARATOR;
+            
+            $this->baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER["SERVER_NAME"] . dirname($_SERVER['SCRIPT_NAME']) . '/';
             
             $this->autoloadComponents();
         }
@@ -131,6 +135,11 @@
         public function getEventManager()
         {
             return $this->eventmanager;
+        }
+        
+        public function getBaseUrl()
+        {
+            return $this->baseUrl;
         }
     }
 ?>
