@@ -157,9 +157,9 @@
         public function get($name, $def = null)
         {
             $this->start();
-            if (isset($_SESSION[$name]))
+            if (isset($_SESSION[self::$namespace][$name]))
             {
-                return $_SESSION[$name];
+                return $_SESSION[self::$namespace][$name];
             }
             return $def;
         }
@@ -174,7 +174,7 @@
         public function set($name, $value)
         {
             $this->start();
-            $_SESSION[$name] = $value;
+            $_SESSION[self::$namespace][$name] = $value;
             
             return $this;
         }
