@@ -1,4 +1,5 @@
 <?php
+
     class App
     {
         private static $instance = null;
@@ -6,24 +7,23 @@
         private $components;
         private $eventmanager;
         private $componentBasePath;
-        
         private $baseUrl;
-        
+
         private function __construct(Configuration $configuration)
         {
             $this->configuration = $configuration;
             $this->eventmanager = new EventManager();
-            
+
             $this->eventmanager->trigger('app_initialized', array($this));
-            
+
             $this->components = array();
             $this->componentBasePath = SYS_PATH . DIRECTORY_SEPARATOR . $this->configuration['componentDir'] . DIRECTORY_SEPARATOR;
-            
+
             $this->baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER["SERVER_NAME"] . dirname($_SERVER['SCRIPT_NAME']) . '/';
-            
+
             $this->autoloadComponents();
         }
-        
+
         public static function initialize(Configuration $configuration)
         {
             if (self::$instance === null)
@@ -36,7 +36,7 @@
             }
             return self::$instance;
         }
-        
+
         public function loadComponent($name, array $config = null)
         {
             if ($config === null)
@@ -77,7 +77,7 @@
                 throw new ComponentException('Failed to read component "' . $name . '" ! ' . $path);
             }
         }
-        
+
         private function autoloadComponents()
         {
             $components = $this->configuration['components'];
@@ -92,7 +92,7 @@
                 }
             }
         }
-        
+
         /**
          * @return App
          */
@@ -100,12 +100,12 @@
         {
             return self::$instance;
         }
-        
+
         public function getConfig()
         {
             return $this->configuration;
         }
-        
+
         public function getComponent($name)
         {
             if (!isset($this->components[$name]))
@@ -114,12 +114,12 @@
             }
             return $this->components[$name];
         }
-        
+
         public function __get($name)
         {
             $type = substr($name, 0, 1);
             $name = substr($name, 1);
-            
+
             switch ($type)
             {
                 case 'c':
@@ -128,7 +128,7 @@
                     throw new AppException('Unknown property "' . $type . $name . '" !');
             }
         }
-        
+
         /**
          * @return EventManager
          */
@@ -136,10 +136,11 @@
         {
             return $this->eventmanager;
         }
-        
+
         public function getBaseUrl()
         {
             return $this->baseUrl;
         }
     }
+
 ?>
