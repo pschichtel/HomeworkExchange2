@@ -7,11 +7,8 @@
         <title>Homework Exchange Index</title>
         <script type="text/javascript" src="public/js/jquery/jquery.js"></script>
         <script type="text/javascript" src="public/js/jquery/jquery-ui.js"></script>
-        <script type="text/javascript" src="public/js/default/widgets/login/login.js"></script>
     </head>
     <body class="ui-helper-reset">
-        <div id="error" class="ui-">
-            
-        </div>
+        
     </body>
 </html>

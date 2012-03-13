@@ -1,6 +1,6 @@
 <?php
     interface Widget
     {
-        public function 
+        //public function 
     }
 ?>
