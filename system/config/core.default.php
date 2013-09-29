@@ -19,6 +19,7 @@
                 'user' => 'root',
                 'pass' => '',
                 'charset' => 'utf8',
+                'prefix' => 'test_',
                 'options' => array()
             )
         ),

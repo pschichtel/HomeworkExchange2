@@ -1,5 +1,5 @@
 <?php
-    class Configuration implements ArrayAccess, IteratorAggregate
+    class Configuration implements IteratorAggregate
     {
         private $config;
         
@@ -21,25 +21,24 @@
             }
             return $def;
         }
-        
+
+        protected function set($key, $value)
+        {
+            $this->config[strval($key)] = $value;
+        }
+
+        protected function remove($key)
+        {
+            if ($this->has($key))
+            {
+                unset($this->config[$key]);
+            }
+        }
+
         public function getIterator()
         {
             return new ArrayIterator($this->config);
         }
-        
-        public function offsetExists($offset)
-        {
-            return $this->has($offset);
-        }
-        public function offsetGet($offset)
-        {
-            return $this->get($offset);
-        }
-        
-        public function offsetSet($offset, $value)
-        {}
-        public function offsetUnset($offset)
-        {}
     }
     
     class ConfigurationException extends Exception

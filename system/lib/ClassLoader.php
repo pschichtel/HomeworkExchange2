@@ -14,6 +14,7 @@
             'EventManager'          => 'EventManager',
             'Configuration'         => 'Util.Config.Configuration',
             'PhpConfiguration'      => 'Util.Config.PhpConfiguration',
+            'DbConfiguration'       => 'Util.Config.DbConfiguration',
             'Request'               => 'Request.Request',
             'Response'              => 'Request.Response',
             'Session'               => 'Request.Session',

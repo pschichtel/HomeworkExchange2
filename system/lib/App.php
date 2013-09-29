@@ -3,28 +3,28 @@
     class App
     {
         private static $instance = null;
-        private $configuration;
+        private $config;
         private $components;
         private $eventmanager;
         private $componentBasePath;
         private $baseUrl;
 
-        private function __construct(Configuration $configuration)
+        private function __construct(Configuration $config)
         {
-            $this->configuration = $configuration;
+            $this->config = $config;
             $this->eventmanager = new EventManager();
 
             $this->eventmanager->trigger('app_initialized', array($this));
 
             $this->components = array();
-            $this->componentBasePath = SYS_PATH . DIRECTORY_SEPARATOR . $this->configuration['componentDir'] . DIRECTORY_SEPARATOR;
+            $this->componentBasePath = SYS_PATH . DIRECTORY_SEPARATOR . $this->config->get('componentDir') . DIRECTORY_SEPARATOR;
 
             $this->baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER["SERVER_NAME"] . dirname($_SERVER['SCRIPT_NAME']) . '/';
 
             $this->autoloadComponents();
         }
 
-        public static function initialize(Configuration $configuration)
+        public static function initialize(Configuration $config)
         {
             if (self::$instance === null)
             {
@@ -32,7 +32,7 @@
                 {
                     throw new AppExcception('The constants APP_PATH and SYS_PATH have to be defined!');
                 }
-                self::$instance = new self($configuration);
+                self::$instance = new self($config);
             }
             return self::$instance;
         }
@@ -41,9 +41,10 @@
         {
             if ($config === null)
             {
-                if (isset($config['components'][$name]) && is_array($config['components'][$name]))
+                $componentConfigs = $config->get('components');
+                if (isset($componentConfigs[$name]) && is_array($componentConfigs[$name]))
                 {
-                    $config = $config['components'][$name];
+                    $config = $componentConfigs[$name];
                 }
                 else
                 {
@@ -80,7 +81,7 @@
 
         private function autoloadComponents()
         {
-            $components = $this->configuration['components'];
+            $components = $this->config->get('components');
             if (is_array($components))
             {
                 foreach ($components as $name => $config)
@@ -103,7 +104,7 @@
 
         public function getConfig()
         {
-            return $this->configuration;
+            return $this->config;
         }
 
         public function getComponent($name)
